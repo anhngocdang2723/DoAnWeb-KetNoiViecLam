@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using DoAnWeb_KetNoiViecLam.Models;
 using DoAnWeb_KetNoiViecLam.Utilities;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace DoAnWeb_KetNoiViecLam.Controllers
 {
@@ -15,6 +16,7 @@ namespace DoAnWeb_KetNoiViecLam.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Tag = Tag();
             return View();
         }
 
@@ -39,6 +41,16 @@ namespace DoAnWeb_KetNoiViecLam.Controllers
             _context.SaveChanges();
 
             return RedirectToAction("Index", "Login");
+        }
+
+        public List<SelectListItem> Tag()
+        {
+            return new List<SelectListItem>
+        {
+            new SelectListItem { Value = "Freelancer", Text = "Freelancer" },
+            new SelectListItem { Value = "Clients", Text = "Nhà tuyển dụng" }
+
+        };
         }
     }
 }

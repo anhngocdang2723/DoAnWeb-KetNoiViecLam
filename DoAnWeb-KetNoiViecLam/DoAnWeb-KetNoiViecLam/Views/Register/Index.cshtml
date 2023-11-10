@@ -885,6 +885,12 @@
                                     <label class="form-label fw500 dark-color">Password</label>
                                     <input type="password" class="form-control" asp-for="Password">
                                   </div>
+
+                                <div class="mb25">
+                                    <label for="tags" class="form-label fw500 dark-color">Kiểu người dùng</label>
+                                    <select name="tags" class="form-select" asp-for="Tags" asp-items="@(ViewBag.Tag as List<SelectListItem>)">
+                                    </select>
+                                </div>
                                   
                                 <div class="d-grid mb20">
                                     <button class="ud-btn btn-thm default-box-shadow2" type="submit">Creat Account <i class="fal fa-arrow-right-long"></i></button>
