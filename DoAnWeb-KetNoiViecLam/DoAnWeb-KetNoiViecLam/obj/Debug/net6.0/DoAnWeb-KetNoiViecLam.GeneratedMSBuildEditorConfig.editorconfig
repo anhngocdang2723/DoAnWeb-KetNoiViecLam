@@ -36,8 +36,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Edu/3.1/ASP.Net/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/Views/Shared/_DashboardLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXNoYm9hcmRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Edu/3.1/ASP.Net/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/3.1/ASP.Net/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/Views/UserDashboard/AddService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhc2hib2FyZFxBZGRTZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/3.1/ASP.Net/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/Views/UserDashboard/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhc2hib2FyZFxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/3.1/ASP.Net/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/Views/UserDashboard/DeleteService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhc2hib2FyZFxEZWxldGVTZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/3.1/ASP.Net/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/Views/UserDashboard/EditService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhc2hib2FyZFxFZGl0U2VydmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/3.1/ASP.Net/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/Views/UserDashboard/ManageServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRhc2hib2FyZFxNYW5hZ2VTZXJ2aWNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Edu/3.1/ASP.Net/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/DoAnWeb-KetNoiViecLam/Views/_ViewImports.cshtml]

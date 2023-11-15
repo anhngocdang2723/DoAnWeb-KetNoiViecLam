@@ -1,0 +1,12 @@
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\bin\Debug\DATA.dll.config
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\bin\Debug\DATA.dll
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\bin\Debug\DATA.pdb
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\bin\Debug\EntityFramework.dll
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\bin\Debug\EntityFramework.SqlServer.dll
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\bin\Debug\EntityFramework.xml
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\bin\Debug\EntityFramework.SqlServer.xml
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\obj\Debug\DATA.csproj.AssemblyReference.cache
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\obj\Debug\DATA.csproj.CoreCompileInputs.cache
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\obj\Debug\DATA.csproj.CopyComplete
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\obj\Debug\DATA.dll
+D:\Edu\3.1\ASP.Net\DoAnWeb-KetNoiViecLam\DoAnWeb-KetNoiViecLam\DATA\obj\Debug\DATA.pdb

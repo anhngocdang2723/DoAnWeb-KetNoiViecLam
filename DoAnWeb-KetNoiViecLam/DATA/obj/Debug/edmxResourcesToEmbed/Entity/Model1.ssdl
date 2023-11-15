@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="JobServicesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_user" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+    <Property Name="Displayname" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ServiceInformation">
+    <Key>
+      <PropertyRef Name="ServiceID" />
+    </Key>
+    <Property Name="ServiceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceTitle" Type="nvarchar" MaxLength="200" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Category" Type="nvarchar" MaxLength="50" />
+    <Property Name="EnglishLevel" Type="nvarchar" MaxLength="50" />
+    <Property Name="ResponseTime" Type="nvarchar" MaxLength="50" />
+    <Property Name="DeliveryTime" Type="nvarchar" MaxLength="50" />
+    <Property Name="Skills" Type="nvarchar" MaxLength="200" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="ServiceDetail" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityContainer Name="JobServicesModelStoreContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ServiceInformation" EntityType="Self.ServiceInformation" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

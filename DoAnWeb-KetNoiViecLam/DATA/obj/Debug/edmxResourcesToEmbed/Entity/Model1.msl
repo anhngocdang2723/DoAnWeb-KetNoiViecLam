@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="JobServicesModelStoreContainer" CdmEntityContainer="JobServicesEntities">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="JobServicesModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Displayname" ColumnName="Displayname" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceInformations">
+      <EntityTypeMapping TypeName="JobServicesModel.ServiceInformation">
+        <MappingFragment StoreEntitySet="ServiceInformation">
+          <ScalarProperty Name="ServiceDetail" ColumnName="ServiceDetail" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Skills" ColumnName="Skills" />
+          <ScalarProperty Name="DeliveryTime" ColumnName="DeliveryTime" />
+          <ScalarProperty Name="ResponseTime" ColumnName="ResponseTime" />
+          <ScalarProperty Name="EnglishLevel" ColumnName="EnglishLevel" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ServiceTitle" ColumnName="ServiceTitle" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
